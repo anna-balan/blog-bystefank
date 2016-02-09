@@ -128,6 +128,9 @@
 		background: #FFF;
 		bottom:20px;
 		text-transform: uppercase;
+		@media (max-width:980px){
+			max-height: 105px;
+		}
 
 
 
@@ -137,6 +140,9 @@
 				line-height:1.3;
 				color: #1D1C1C;
 				margin-top: 20px;
+				@media (max-width:1169px){
+					font-size: 15px;
+				}
 
 			}
 			.ba-date{
